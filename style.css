@@ -1,0 +1,86 @@
+body {
+  background-color: #0b0c10;
+  background-image: radial-gradient(circle at 50% 50%, #1f2833 0%, #0b0c10 100%);
+  color: #c5c6c7;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#loginForm {
+  background: rgba(26, 26, 36, 0.85);
+  border: 2px solid #66fcf1;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 0 20px #66fcf1;
+  max-width: 400px;
+  width: 100%;
+}
+
+.header {
+  padding: 10px 0 20px 0;
+  text-align: center;
+}
+
+#welcome {
+  color: #66fcf1;
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+label {
+  display: block;
+  color: #66fcf1;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #1f2833;
+  border: 1px solid #45a29e;
+  border-radius: 4px;
+  color: #fff;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #66fcf1;
+  box-shadow: 0 0 10px #66fcf1;
+}
+
+#savebtn {
+  background-color: #45a29e;
+  color: #0b0c10;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 25px;
+}
+
+#savebtn:hover {
+  background-color: #66fcf1;
+}
+
+#message {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  color: #66fcf1;
+  font-weight: bold;
+}
